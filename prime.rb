@@ -1,11 +1,11 @@
 def prime?(integer)
-  if integer % 2 == 0 && integer != 4
+  if integer % 2 == 0
     false 
-  elsif integer % 3 == 0 && integer != 9
+  elsif integer % 3 == 0
     false 
-  elsif integer % 5 == 0 && integer != 25
+  elsif integer % 5 == 0
     false 
-  elsif integer % 7 == 0 && integer != 49
+  elsif integer % 7 == 0
     false
   else 
     true
