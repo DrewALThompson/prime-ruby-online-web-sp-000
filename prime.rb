@@ -4,7 +4,6 @@ def prime?(integer)
   else
     i = 2 
     while i < integer 
-     (i..integer)any? {||
    end
   end
 end
